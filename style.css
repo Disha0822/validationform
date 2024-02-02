@@ -1,0 +1,121 @@
+
+.phone1{
+    display: flex;
+} 
+
+.phone2{
+    margin-left: 10px;
+}
+.phone3{
+    margin-left: 10px;
+}
+
+
+body{
+    display: flex;
+    font-style:unset;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 190, 216);
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+.subcontainer{
+    width: 50%;
+    padding: 2%;
+}
+
+label, input, select, textarea{
+box-sizing: border-box;
+width: 100%;
+padding: 2%;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+
+
+.gender,.checkbox{
+    width: 5%;
+}
+
+.country-code{
+    width: 13%;
+}
+
+.color{
+    padding: 0.2%;
+    background-color: white;
+    
+ }
+ 
+ .submitbtn{
+     font-size: larger;
+     width: 40%;
+ }
+ 
+.country-code, .phone{
+    display: inline-block;
+}
+.text{
+    height: 17%;
+}
+
+
+element.style {
+    background-color: rgb(245, 242, 242);
+}
+
+.image{
+    box-sizing: border-box;
+width: 100%;
+padding: 1%;
+margin-bottom: 2%;
+margin-top: 2%;
+background-color: aliceblue;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subcontainer{
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .ubcontainer{
+      flex: 100%;
+      min-width: auto;
+    }
+}
+
+.phone1{
+    display: flex;
+    width: 100%;
+}
+
+.phone2{
+    width: 40px;
+    margin-top: 2%;
+    height: 1px;
+   
+ }   
+
+.phone3{
+    width: 100%;
+    height: 20%;
+}
+.phonenoChild{
+    box-sizing: border-box;
+    width: 100%;
+}
+.countryCode{
+    height: 40px;
+    width: fit-content;
+   
+}
